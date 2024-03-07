@@ -30,7 +30,7 @@ public class Lampadas {
             System.out.println("O terceiro interruptor controla a lâmpada " + lampadaAcessa);
             System.out.println("Os interruptores restantes controlam as outras lâmpadas.");
         }
-
-        scanner.close();
     }
+    /* como eu liguei a lampada 1 e logo desliguei ,
+     na segunda visita ao escolher a lampada 1 ele irá ser controlado pelo 3 interruptor*/
 }

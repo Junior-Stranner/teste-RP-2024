@@ -2,7 +2,7 @@ package questao02;
 
 import java.util.Scanner;
 
-public class fibonacci_sequence {
+public class Fibonacci_sequence {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

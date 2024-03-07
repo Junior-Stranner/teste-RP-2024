@@ -1,6 +1,6 @@
 package questao01;
 
-public class valorDaVariaelSOMA {
+public class ValorDaVariaelSOMA {
     
     public static void main(String[]args){
 

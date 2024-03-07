@@ -1,6 +1,6 @@
 package questao03;
 
-public class elementos {
+public class Elementos {
 
     public static void doisEmDois() {
         System.out.println("\na)");
@@ -59,8 +59,25 @@ public class elementos {
         }
     }
 
-    public static void main(String[] args) {
+    public static void SequenceF() {
+        System.out.println("\nf)");
 
+            int start = 19; 
+            int count = 20;
+    
+            for (int i = 0; i < count; i++) {
+                int num;
+                if (i % 2 == 0) {
+                    num = start + 2 * i; // Gera número par
+                } else {
+                    num = start + 11 + i; // Gera número ímpar
+                }
+                System.out.print(num + " ");
+            }
+        }
+
+    public static void main(String[] args) {
+        System.out.println("a )");
         doisEmDois();
         System.out.println("\n-------------------------------------------");
         multDois();
@@ -71,6 +88,9 @@ public class elementos {
         System.out.println("\n-------------------------------------------");
         fibonacciSequence();
         System.out.println("\n-------------------------------------------");
+        SequenceF();
+        System.out.println("\n-------------------------------------------");
+
 
     }
 }
